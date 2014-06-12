@@ -1,4 +1,4 @@
-package hello;
+package com.github.aglover.galoshe;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -20,8 +20,6 @@ public class Application {
 
     @RequestMapping("/")
     public String index() {
-        return "Greetings from Spring Boot!";
+        return "Hello to you, world";
     }
-
-
 }

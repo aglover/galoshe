@@ -17,3 +17,4 @@ gradle.properties
 build/
 resty
 out/
+.vagrant/
