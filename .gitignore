@@ -1,0 +1,19 @@
+*.class
+
+# Package Files #
+*.war
+*.ear
+*.iml
+.idea/
+.DS_Store
+target/
+local.properties
+lib/
+*jar
+.gradle/
+*.ipr
+*.iws
+gradle.properties
+build/
+resty
+out/
