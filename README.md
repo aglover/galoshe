@@ -18,7 +18,14 @@ You'll need to have the `docker` binary locally w/this particular [Gradle Docker
 $ ./gradlew distDocker
 ```
 
-This will create a Docker image called `aglover/galoshe` -- run `docker ps` after this command finishes and you'll see it. 
+This will create a Docker image called `aglover/galoshe` -- type `docker ps` after this command finishes and you'll see it.
+ 
+```
+docker images
+REPOSITORY          TAG                 IMAGE ID            CREATED             VIRTUAL SIZE
+aglover/galoshe     latest              332e163221bc        3 minutes ago       1.042 GB
+dockerfile/java     latest              f9793c257930        3 weeks ago         1.026 GB
+```
 
 Firing it up is as easy as:
 
