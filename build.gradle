@@ -3,7 +3,7 @@ buildscript {
         bootVersion = '1.1.1.RELEASE'
     }
     repositories {
-        maven { url "http://repo.spring.io/libs-snapshot" }
+        maven { url 'http://repo.spring.io/libs-snapshot' }
         mavenLocal()
     }
     dependencies {
@@ -23,16 +23,16 @@ jar {
 
 repositories {
     mavenCentral()
-    maven { url "http://repo.spring.io/libs-snapshot" }
+    maven { url 'http://repo.spring.io/libs-snapshot' }
 }
 
 dependencies {
-    compile("org.springframework.boot:spring-boot-starter-web")
-    compile("org.springframework.boot:spring-boot-starter-jetty")
+    compile("org.springframework.boot:spring-boot-starter-web:${project.bootVersion}")
+    compile("org.springframework.boot:spring-boot-starter-jetty:${project.bootVersion}")
     testCompile("junit:junit:4.11")
 }
 
-group = "aglover"
+group = 'aglover'
 sourceCompatibility = 1.7
 mainClassName = 'com.github.aglover.galoshe.Application'
 
