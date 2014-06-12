@@ -35,6 +35,7 @@ dependencies {
     testCompile("junit:junit:4.11")
 }
 
+group = "aglover"
 sourceCompatibility = 1.7
 mainClassName = 'com.github.aglover.galoshe.Application'
 
