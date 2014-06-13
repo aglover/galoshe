@@ -1,6 +1,8 @@
 # Galoshe
 
 Your Dockered Spring Boot example, baby.
+
+For more details, see my blog article entitled [Docker Containers With Gradle in 4 Steps](http://thediscoblog.com/blog/2014/06/13/docker-containers-with-gradle-in-4-steps/).
  
 ## Running w/o Docker
 
